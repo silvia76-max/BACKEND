@@ -1,0 +1,423 @@
+{
+  "users": [
+    {
+      "id": "Q9OQ0gu6",
+      "name": "Juan Pérez",
+      "email": "juan@example.com",
+      "password": "123456"
+    },
+    {
+      "id": "y1OVxtgM",
+      "name": "Ana López",
+      "email": "ana@example.com",
+      "password": "654321"
+    },
+    {
+      "id": "9NbxUMvM",
+      "name": "Marta gutierrez",
+      "email": "marta@example.com",
+      "password": "111111"
+    },
+    {
+      "id": "seNPdCFm",
+      "name": "Manuel sainz",
+      "email": "manuel@example.com",
+      "password": "222222"
+    },
+    {
+      "id": "JlnDY64F",
+      "name": "Jose Prieto",
+      "email": "jose@example.com",
+      "password": "333333"
+    },
+    {
+      "id": "93aa",
+      "name": "Érika",
+      "email": "erika@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "4ddf",
+      "name": "Gaizka",
+      "email": "gaizka@gmail.com",
+      "password": "gaizka"
+    },
+    {
+      "id": "6a7a",
+      "name": "Agatha",
+      "email": "agatha@witch.com",
+      "password": "666"
+    },
+    {
+      "id": "5074",
+      "name": "Thais",
+      "email": "thais@millonaria.com",
+      "password": "123456"
+    }
+  ],
+  "assets": [
+    {
+      "id": "d434",
+      "user_id": "y1OVxtgM",
+      "code": "META",
+      "shares": 4,
+      "purchase_price": 300,
+      "purchase_date": "2025-03-09"
+    },
+    {
+      "id": "8064",
+      "user_id": "Q9OQ0gu6",
+      "code": "AAPL",
+      "shares": 2,
+      "purchase_price": 200,
+      "purchase_date": "2025-03-10"
+    },
+    {
+      "id": "bad2",
+      "user_id": "Q9OQ0gu6",
+      "code": "TSLA",
+      "shares": 3,
+      "purchase_price": 200,
+      "purchase_date": "2025-03-10"
+    },
+    {
+      "id": "b5d5",
+      "user_id": "y1OVxtgM",
+      "code": "META",
+      "shares": 3,
+      "purchase_price": 200,
+      "purchase_date": "2025-03-13"
+    },
+    {
+      "id": "d446",
+      "user_id": "y1OVxtgM",
+      "code": "TSLA",
+      "shares": 3,
+      "purchase_price": 333,
+      "purchase_date": "2025-03-13"
+    },
+    {
+      "id": "5bea",
+      "user_id": "y1OVxtgM",
+      "code": "GOOGL",
+      "shares": 3,
+      "purchase_price": 200,
+      "purchase_date": "2025-03-13"
+    },
+    {
+      "id": "d220",
+      "user_id": "y1OVxtgM",
+      "code": "AMD",
+      "shares": 1,
+      "purchase_price": 20,
+      "purchase_date": "2025-03-13"
+    },
+    {
+      "id": "48c9",
+      "user_id": "y1OVxtgM",
+      "code": "INTC",
+      "shares": 3,
+      "purchase_price": 222,
+      "purchase_date": "2025-03-13"
+    },
+    {
+      "id": "5ad4",
+      "user_id": "y1OVxtgM",
+      "code": "NVDA",
+      "shares": 3,
+      "purchase_price": 300,
+      "purchase_date": "2025-03-13"
+    },
+    {
+      "id": "1e62",
+      "user_id": "y1OVxtgM",
+      "code": "TSLA",
+      "shares": 3,
+      "purchase_price": 333,
+      "purchase_date": "2025-03-13"
+    },
+    {
+      "id": "87f5",
+      "user_id": "y1OVxtgM",
+      "code": "NVDA",
+      "shares": 3,
+      "purchase_price": 222,
+      "purchase_date": "2025-03-13"
+    },
+    {
+      "id": "0c48",
+      "user_id": "JlnDY64F",
+      "code": "META",
+      "shares": 1,
+      "purchase_price": 20,
+      "purchase_date": "2025-03-13"
+    },
+    {
+      "id": "52d9",
+      "user_id": "JlnDY64F",
+      "code": "GOOGL",
+      "shares": 2,
+      "purchase_price": 200,
+      "purchase_date": "2025-03-13"
+    },
+    {
+      "id": "e962",
+      "code": "AAPL",
+      "shares": 200,
+      "purchase_price": 50,
+      "purchase_date": "2025-03-14"
+    },
+    {
+      "id": "a56c",
+      "user_id": "Q9OQ0gu6",
+      "code": "AMZN",
+      "shares": 33,
+      "purchase_price": 100,
+      "purchase_date": "2025-03-14"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "6beb",
+      "user_id": "y1OVxtgM",
+      "asset_code": "TSLA",
+      "type": "up",
+      "target_price": 324,
+      "created_at": "2025-03-05"
+    },
+    {
+      "id": "1eea",
+      "user_id": "y1OVxtgM",
+      "asset_code": "TSLA",
+      "type": "down",
+      "target_price": 52,
+      "created_at": "2025-03-05"
+    },
+    {
+      "id": "e902",
+      "user_id": "y1OVxtgM",
+      "asset_code": "TSLA",
+      "type": "up",
+      "target_price": 80,
+      "created_at": "2025-03-05"
+    },
+    {
+      "id": "4bb2",
+      "user_id": "Q9OQ0gu6",
+      "asset_code": "AAPL",
+      "type": "down",
+      "target_price": 300,
+      "created_at": "2025-03-11"
+    },
+    {
+      "id": "769f",
+      "user_id": "Q9OQ0gu6",
+      "asset_code": "AAPL",
+      "type": "down",
+      "target_price": 215,
+      "created_at": "2025-03-06"
+    },
+    {
+      "id": "1414",
+      "user_id": "JlnDY64F",
+      "asset_code": "META",
+      "type": "down",
+      "target_price": 50,
+      "created_at": "2025-03-13"
+    },
+    {
+      "id": "52fe",
+      "asset_code": "AAPL",
+      "type": "down",
+      "target_price": 48,
+      "created_at": "2025-03-14"
+    }
+  ],
+  "companies": [
+    {
+      "code": "AAPL",
+      "name": "Apple Inc.",
+      "market": "NASDAQ",
+      "id": "69eb"
+    },
+    {
+      "code": "META",
+      "name": "Meta Platforms",
+      "market": "NASDAQ",
+      "id": "71bd"
+    },
+    {
+      "code": "TSLA",
+      "name": "Tesla, Inc.",
+      "market": "NASDAQ",
+      "id": "594d"
+    },
+    {
+      "code": "NVDA",
+      "name": "NVIDIA Corporation",
+      "market": "NASDAQ",
+      "id": "2018"
+    },
+    {
+      "code": "AMZN",
+      "name": "Amazon.com, Inc.",
+      "market": "NASDAQ",
+      "id": "8d55"
+    },
+    {
+      "code": "GOOGL",
+      "name": "Alphabet Inc.",
+      "market": "NASDAQ",
+      "id": "5582"
+    },
+    {
+      "code": "INTC",
+      "name": "Intel Corporation",
+      "market": "NASDAQ",
+      "id": "9aa3"
+    },
+    {
+      "code": "AMD",
+      "name": "Advanced Micro Devices, Inc.",
+      "market": "NASDAQ",
+      "id": "4d87"
+    }
+  ],
+  "contactos": [
+    {
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": "",
+      "id": "8695"
+    },
+    {
+      "id": "11ce"
+    },
+    {
+      "id": "699a",
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": ""
+    },
+    {
+      "id": "bc38",
+      "name": "marta",
+      "email": "marta@jmail.com",
+      "subject": "",
+      "message": "hi maria"
+    },
+    {
+      "id": "f1fb",
+      "name": "Silvia",
+      "email": "silvia@fintastical.com",
+      "subject": "La jefa",
+      "message": "De los formularios"
+    },
+    {
+      "id": "f168",
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": ""
+    },
+    {
+      "id": "7894",
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": ""
+    },
+    {
+      "id": "195e",
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": ""
+    },
+    {
+      "id": "1d62",
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": ""
+    },
+    {
+      "id": "7889",
+      "name": "",
+      "email": "",
+      "subject": "",
+      "message": ""
+    },
+    {
+      "id": "2e66",
+      "name": "gaizka",
+      "email": "gaizka@gmail.com",
+      "subject": "jfdklsña",
+      "message": "fdsafdsa"
+    },
+    {
+      "id": "9dfe",
+      "name": "pepi",
+      "email": "pepi@gmail.com",
+      "subject": "jfdslñ",
+      "message": "jfkdlñsa"
+    },
+    {
+      "id": "1d45",
+      "name": "silvia",
+      "email": "silvia@fintastical.com",
+      "subject": "jfdklsañ",
+      "message": "jfkdlsña"
+    },
+    {
+      "id": "4eb3",
+      "name": "dsa",
+      "email": "sda@jre.com",
+      "subject": "jfds",
+      "message": "sdsafsda"
+    },
+    {
+      "id": "1798",
+      "name": "fda",
+      "email": "gaizkamg@gmail.com",
+      "subject": "fjsda",
+      "message": ""
+    },
+    {
+      "id": "bcaf",
+      "name": "gaizka",
+      "email": "gaizka@gmail.com",
+      "subject": "el footer no funciona",
+      "message": "Le falta la pantalla de que se ha enviado el mensaje."
+    },
+    {
+      "id": "8431",
+      "name": "mahamsajid",
+      "email": "maham@gmail.com",
+      "subject": "help",
+      "message": "acsusa"
+    },
+    {
+      "id": "b1fc",
+      "name": "Gaizka",
+      "email": "gaizka@gmail.com",
+      "subject": "Hola",
+      "message": "Hol"
+    },
+    {
+      "id": "68c4",
+      "name": "Moisés",
+      "email": "moises.colm@gmail.com",
+      "subject": "fdsafds",
+      "message": "hgffdsafdas"
+    }
+  ],
+  "newsletter": [
+    {
+      "email": "",
+      "id": "18e7"
+    }
+  ]
+}
